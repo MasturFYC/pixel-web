@@ -79,7 +79,10 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
             <Link to="/lembar-soal">Lembar Soal</Link>
           </MenuItem>
           <MenuItem icon={<FaGem />}>
-            <Link to="/mdta">MDTA 2001</Link>
+            <Link to="/mdta">MDTA 2021</Link>
+          </MenuItem>
+          <MenuItem icon={<FaGem />}>
+            <Link to="/mdta2">Rekap Siswa MDTA</Link>
           </MenuItem>
           <MenuItem icon={<FaRegLaughWink />}>
             <a href="/cpo-fitness/">CPO Fitness</a>

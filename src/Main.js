@@ -4,6 +4,7 @@ import { useIntl } from 'react-intl';
 //import MySelect from './test-react-select'
 import LembarSoal from './soal'
 import Mdta from './mdta'
+import Mdta2 from './mdta2'
 import { FaHeart, FaBars } from 'react-icons/fa';
 import {
   CiptoRabat,
@@ -62,6 +63,7 @@ const Main = ({
         {/* <Route exact path="/my-select" component={MySelect} /> */}
         <Route exact path="/lembar-soal" component={LembarSoal} />
         <Route exact path="/mdta" component={Mdta} />
+        <Route exact path="/mdta2" component={Mdta2} />
         <Route exact path="/category" component={CategoryList} />        
       </div>
       <footer>
