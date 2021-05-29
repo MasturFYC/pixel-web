@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 export default {
   ar: {
     title: 'رياكت پرو سايد بار',
@@ -40,7 +41,11 @@ export default {
     tokoSyauqi: 'Toko Syauqi',
     dianJaya: "Toko Dian Jaya",
     hjIdah: "Toko Hj. Idah",
+    tokoAan: "Toko AAN",
+    aanPer: "Toko Aan Perabotan",
     downloadTokoCipto: 'id-card-toko-cipto.pdf',
+    downloadTokoAan: 'id-card-toko-aan.pdf',
+    downloadAanPer: 'id-card-toko-aan-perabotan.pdf',
     downloadGudangRabat: 'id-card-gudang-rabat.pdf',
     downloadAwaliya: 'id-card-toko-awaliya.pdf',
     downloadSumiyati: 'id-card-toko-sumiyati.pdf',

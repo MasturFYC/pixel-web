@@ -68,6 +68,7 @@ const myButton = {
 
 const Mdta2 = () => {
   const intl = useIntl();
+  // eslint-disable-next-line
   const [isInit, setInit] = useState(true)
   const [kecamatan, setKecamatan] = useState([]);
   const [kecamatanId, setKecamatanId] = useState([]);

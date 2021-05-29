@@ -14,7 +14,9 @@ import {
   TokoSyauqi,
   DianJaya,
   HjIdah,
-  MusaTani
+  MusaTani,
+  TokoAan,
+  AanPer
 } from './components'
 import { Route } from 'react-router-dom';
 import { CategoryList } from '../src/category'
@@ -59,6 +61,8 @@ const Main = ({
           <DianJaya />
           <HjIdah />
           <MusaTani />
+          <TokoAan />
+          <AanPer />
         </Route>
         {/* <Route exact path="/my-select" component={MySelect} /> */}
         <Route exact path="/lembar-soal" component={LembarSoal} />
