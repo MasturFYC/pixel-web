@@ -2,7 +2,7 @@
   "name": "basic",
   "version": "0.1.0",
   "private": true,
-  "homepage":"/home",
+  "homepage": "/home",
   "dependencies": {
     "axios": "^0.21.1",
     "intl-messageformat-parser": "^6.4.3",
