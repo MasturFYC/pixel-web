@@ -95,13 +95,13 @@ const Aside = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
         </Menu>
         <Menu iconShape="circle">
           <SubMenu
-            suffix={<span className="badge yellow">3</span>}
-            title={intl.formatMessage({ id: "withSuffix" })}
-            icon={<FaRegLaughWink />}
+            suffix={<span className="badge yellow">1</span>}
+            title={'ID-Card V-2'}
+            icon={<FaList />}
           >
             {/* <MenuItem><Link to="/category">Kategori Produk</Link></MenuItem> */}
-            <MenuItem>{intl.formatMessage({ id: "submenu" })} 2</MenuItem>
-            <MenuItem>{intl.formatMessage({ id: "submenu" })} 3</MenuItem>
+            <MenuItem><Link to="/sumiyati-2">{'Toko Hj. Sumiyati 2'}</Link></MenuItem>
+            {/* <MenuItem>{intl.formatMessage({ id: "submenu" })} 3</MenuItem> */}
           </SubMenu>
           <SubMenu
             prefix={<span className="badge gray">3</span>}

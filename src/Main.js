@@ -5,6 +5,7 @@ import { useIntl } from 'react-intl';
 import LembarSoal from './soal'
 import Mdta from './mdta'
 import Mdta2 from './mdta2'
+import Sumiyati2 from './card-v2/sumiyati-2'
 import { FaHeart, FaBars } from 'react-icons/fa';
 import {
   CiptoRabat,
@@ -69,6 +70,7 @@ const Main = ({
         <Route exact path="/mdta" component={Mdta} />
         <Route exact path="/mdta2" component={Mdta2} />
         <Route exact path="/category" component={CategoryList} />        
+        <Route exact path="/sumiyati-2" component={Sumiyati2} />        
       </div>
       <footer>
         <small>

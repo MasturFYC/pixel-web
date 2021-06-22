@@ -134,6 +134,21 @@ body {
     }
   }
 
+  .blockv2 {
+    display: flex;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: #545454;
+    > span {
+      margin-left: 10px;
+    }
+    border: 1px solid;
+    padding: 6px;
+    width: 50%;
+    margin-top: 6px;
+
+  }
+
   &.rtl {
     direction: rtl;
     text-align: right;
